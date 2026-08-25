@@ -1,0 +1,22 @@
+﻿git : remote: warning: See https://gh.io/lfs for more information.        
+At line:1 char:38
++ ... :\xampp\htdocs\sashtechnologies; git push -u origin main 2>&1 | Out-F ...
++                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (remote: warning...mation.        :String) [] 
+   , RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+remote: warning: File assets/images/portfolio/lighthearted Hey quick one I m Trevor with 
+Mann Roofing (1).mp4 is 55.28 MB; this is larger than GitHub's recommended maximum file 
+size of 50.00 MB        
+remote: warning: File assets/video/EXCITED Hey my name s David Royce confidently I m.mp4 
+is 56.33 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB       
+ 
+remote: warning: File assets/video/chloevideo/Chloe (Reliable Front Desk) (2).mp4 is 
+52.35 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage 
+- https://git-lfs.github.com.        
+To https://github.com/raheelUser123/sash-technologies.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+EXIT=0

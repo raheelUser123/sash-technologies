@@ -601,29 +601,6 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </section>
 
-<!-- Retell Client JS SDK & Widget Integration -->
-<script src="https://unpkg.com/retell-client-js-sdk/dist/bundle.js"></script>
 
-<script type="module">
-setTimeout(() => {
-  const script = document.createElement("script");
-  script.id = "retell-widget";
-  script.src = "https://dashboard.retellai.com/retell-widget.js";
-  script.type = "module";
-  script.setAttribute("data-public-key", "key_3a916574e13a4da802a508a755b9");
-  script.setAttribute("data-agent-id", "agent_3da9eb0a5f8e1278d9390df7a8");
-  script.setAttribute("data-agent-version", "5");
-  script.setAttribute("data-title", "Chat with Chloe");
-  script.setAttribute("data-logo-url", "https://static.wixstatic.com/media/2066a8_284bbe8e86d94e5988999a73190e220a~mv2.png");
-  script.setAttribute("data-color", "#0B5FFF");
-  script.setAttribute("data-bot-name", "Chloe");
-  script.setAttribute("data-popup-message", "Have a quick question? I can help.");
-  script.setAttribute("data-show-ai-popup", "true");
-  script.setAttribute("data-show-ai-popup-time", "0"); 
-  script.setAttribute("data-auto-open", "true");
-  script.setAttribute("data-dynamic", '{"site":"wix","page":"sales-funnel"}');
-  document.body.appendChild(script);
-}, 10000); // 10000ms = 10 seconds
-</script>
 
 <?php include 'includes/footer.php'; ?>
