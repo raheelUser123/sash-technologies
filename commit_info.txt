@@ -1,4 +1,0 @@
-﻿ee7bbbc first commit
-main
-origin	https://github.com/raheelUser123/sash-technologies.git (fetch)
-origin	https://github.com/raheelUser123/sash-technologies.git (push)

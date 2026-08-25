@@ -781,8 +781,6 @@ body.light .legal-contact-box{background:#f8fafc;border-color:#e2e8f0}
 body.light .legal-alert{background:#fef2f2;border-color:#fca5a5;color:#991b1b}
 @media(max-width:992px){.legal-container{grid-template-columns:1fr}.legal-toc{display:none}}
 
-
-
-
-
-
+body.light section.cta-section.primary-cta-section .cta-panel.reveal.primary-cta-panel.visible a.btn.btn-ghost {
+    color: #fff !important;
+}

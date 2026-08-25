@@ -2,7 +2,7 @@
   const escapeFormMessage = value => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[character]));
   const body=document.body,theme=document.getElementById('theme-toggle'),saved=localStorage.getItem('urd-theme');
   const updateLogos=()=>{const isLight=body.classList.contains('light');document.querySelectorAll('.brand-logo').forEach(img=>{img.src=isLight?'assets/images/darklogo.png':'assets/images/urdigilogo.png'})};
-  if(saved==='light')body.classList.add('light');
+  if(saved!=='dark')body.classList.add('light'); // light is default when no preference saved
   updateLogos();
   theme?.addEventListener('click',()=>{body.classList.toggle('light');localStorage.setItem('urd-theme',body.classList.contains('light')?'light':'dark');updateLogos()});
   const panel=document.getElementById('side-panel'),overlay=document.getElementById('menu-overlay'),trigger=document.getElementById('menu-trigger'),close=document.getElementById('menu-close');

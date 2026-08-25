@@ -136,7 +136,7 @@
             <span>Sash Technologies on Google</span>
           </div>
         </div>
-        <a class="btn btn-ghost" href="https://www.google.com/search?q=URDigital+Tech+Reviews" target="_blank" rel="noopener">View all Google reviews ↗</a>
+        <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">View all Google reviews ↗</a>
       </div>
     </div>
     <div class="review-viewport">

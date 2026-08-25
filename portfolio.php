@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded', () => {
     modalDesc.textContent = card.dataset.desc;
     if (modalUrl) {
       const cleanSlug = (card.dataset.title || 'preview').toLowerCase().replace(/[^a-z0-9]+/g, '-');
-      modalUrl.textContent = `urdigitaltech.com/${cleanSlug}`;
+      modalUrl.textContent = `sashtechnologies.com/${cleanSlug}`;
     }
     modal.classList.add('open');
     modal.setAttribute('aria-hidden', 'false');

@@ -312,7 +312,7 @@ function email_layout(
                             ">
                                 <a href="' . email_escape($siteUrl) . '"
                                    style="color:#315fcf;text-decoration:none;">
-                                    urdigitaltech.com
+                                    sashtechnologies.com
                                 </a>
                                 &nbsp;•&nbsp;
                                 <a href="mailto:info@sashtechnologies.com"
@@ -320,7 +320,7 @@ function email_layout(
                                     info@sashtechnologies.com
                                 </a>
                                 &nbsp;•&nbsp;
-                                <a href="tel:+17164000769"
+                                <a href="tel:+002424276921"
                                    style="color:#315fcf;text-decoration:none;">
                                     (666) 399-1245
                                 </a>
