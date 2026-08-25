@@ -1,0 +1,37 @@
+Sash Technologies - EMAIL + CLICKUP FORM SETUP
+===========================================
+
+Configured ClickUp destination:
+- Workspace ID: 9017525393
+- Leads List ID: 901108518949
+
+IMPORTANT SECURITY STEP
+-----------------------
+The API token previously shared in chat must be regenerated in ClickUp before use.
+ClickUp: Avatar > Settings > Apps > API Token > Regenerate.
+
+INSTALLATION
+------------
+1. Upload the website to the PHP hosting account.
+2. Run "composer install" in the website root, or upload the generated vendor folder.
+3. Copy config.local.example.php to config.local.php.
+4. Enter:
+   - SMTP host, port, encryption, username and app password
+   - Email recipient
+   - Newly regenerated ClickUp API token
+5. Confirm that the PHP cURL extension is enabled in cPanel.
+6. Submit a test from Contact and Schedule pages.
+
+WHAT HAPPENS AFTER SUBMISSION
+-----------------------------
+- A notification email is sent to the configured recipient.
+- A confirmation email is sent to the visitor.
+- A ClickUp task is created in Leads List 901108518949.
+- Task title includes visitor name, selected service and form type.
+- Task description includes all form fields, source page, timestamp and IP.
+- If one delivery channel fails, the other still runs and the failure is logged.
+
+SECURITY
+--------
+Never place config.local.php in a public Git repository.
+The included .gitignore excludes it automatically.

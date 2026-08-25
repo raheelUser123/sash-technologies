@@ -1,0 +1,29 @@
+<?php
+$services = require __DIR__ . '/data.php';
+if (!isset($service_slug) || !isset($services[$service_slug])) { http_response_code(404); include __DIR__ . '/404.php'; exit; }
+$s = $services[$service_slug];
+$page_title = $s['title'] . ' Services | Sash Technologies';
+$page_description = $s['description'];
+$canonical_path = $service_slug;
+include __DIR__ . '/includes/header.php';
+?>
+<header class="hero service-hero"><div class="hero-grid-bg"></div><div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div><div class="container hero-layout"><div class="hero-copy reveal"><div class="eyebrow">Strategy · Design · Technology</div><h1><?= htmlspecialchars($s['title']) ?> that moves your business forward.</h1><p class="lead"><?= htmlspecialchars($s['description']) ?></p><div class="cta-row"><a class="btn btn-primary" href="contact.php?service=<?= urlencode($s['title']) ?>">Start your project →</a><a class="btn btn-ghost" href="schedule.php?service=<?= urlencode($s['title']) ?>">Book a strategy call ↗</a></div><div class="hero-proof"><span>✓ Clear milestones</span><span>✓ Responsive delivery</span><span>✓ SEO-ready foundations</span></div></div><div class="service-visual reveal"><div class="visual-window"><div class="window-dots"><i></i><i></i><i></i></div><img src="<?= htmlspecialchars($s['image']) ?>" alt="<?= htmlspecialchars($s['title']) ?> service"></div><div class="float-stat stat-a"><strong>20+</strong><span>Specialist services</span></div><div class="float-stat stat-b"><strong>24/7</strong><span>Lead capture</span></div></div></div></header>
+<?php include __DIR__ . '/includes/trust-strip.php'; ?>
+<section><div class="container split"><div class="reveal"><div class="eyebrow">What’s included</div><h2>A complete engagement, not a disconnected deliverable.</h2><p>We combine discovery, planning, execution, testing, and handoff so your team receives a solution that is practical, polished, and ready to perform.</p><a class="text-link" href="contact.php?service=<?= urlencode($s['title']) ?>">Discuss your requirements →</a></div><div class="check-list reveal"><?php foreach ($s['features'] as $x): ?><div><span>✓</span><?= htmlspecialchars($x) ?></div><?php endforeach; ?></div></div></section>
+<section class="section-alt glow-section"><div class="container"><div class="section-head reveal"><div class="eyebrow">Business impact</div><h2>Built around outcomes that matter.</h2><p>Every decision is tied back to clarity, trust, efficiency, and measurable business value.</p></div><div class="grid grid-4"><?php foreach ($s['benefits'] as $i=>$x): ?><article class="card spotlight-card reveal"><span class="card-number">0<?= $i+1 ?></span><h3><?= htmlspecialchars($x) ?></h3><p>Focused strategy and careful execution turn this outcome into a repeatable advantage for your team.</p></article><?php endforeach; ?></div></div></section>
+<section><div class="container"><div class="section-head reveal"><div class="eyebrow">Our process</div><h2>Clear steps. Visible progress. No surprises.</h2></div><div class="process-grid"><?php foreach ($s['process'] as $i=>$x): ?><article class="process-card reveal"><span>0<?= $i+1 ?></span><h3><?= htmlspecialchars($x) ?></h3><p>We document decisions, communicate progress, and keep every stage aligned with the agreed goal.</p></article><?php endforeach; ?></div></div></section>
+<section class="portfolio-band"><div class="container split"><div class="portfolio-collage reveal"><img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=900&q=80" alt="Selected digital work"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=900&q=80" alt="Creative project"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" alt="Analytics project"></div><div class="reveal"><div class="eyebrow">Selected work</div><h2>See how strategy becomes a polished customer experience.</h2><p>Explore examples across websites, brand systems, campaigns, automation, and business growth initiatives.</p><a class="btn btn-ghost" href="portfolio.php">View portfolio →</a></div></div></section>
+<section class="section-alt"><div class="container narrow"><div class="section-head reveal"><div class="eyebrow">Frequently asked</div><h2>Questions about <?= htmlspecialchars($s['title']) ?></h2></div><div class="accordion"><?php foreach ($s['faqs'] as $f): ?><details class="reveal"><summary><?= htmlspecialchars($f['q']) ?></summary><p><?= htmlspecialchars($f['a']) ?></p></details><?php endforeach; ?></div></div></section>
+<section class="cta-section"><div class="container"><div class="cta-panel reveal"><div><span class="eyebrow">Let’s work together</span><h2>Have a <?= htmlspecialchars(strtolower($s['title'])) ?> project in mind?</h2><p>Tell us what you need, where you are stuck, and what a successful result should look like.</p><div class="cta-row"><a class="btn btn-primary" href="contact.php?service=<?= urlencode($s['title']) ?>">Start a project →</a><a class="btn btn-ghost" href="schedule.php?service=<?= urlencode($s['title']) ?>">Get in touch →</a></div></div><div class="cta-logo">UD</div></div></div></section>
+<style>
+    body.light .cta-panel.reveal.visible h2, body.light .cta-panel.reveal.visible p {
+    color: #fff;
+}
+body.light .cta-panel.reveal.visible a.btn.btn-ghost {
+    color: #fff;
+}
+body.light .hero-copy.reveal.visible a.btn.btn-ghost {
+    color: #fff;
+}
+    </style>
+<?php include __DIR__ . '/includes/footer.php'; ?>

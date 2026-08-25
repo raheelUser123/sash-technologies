@@ -1,0 +1,26 @@
+Sash Technologies - DEPLOYMENT SETUP
+=================================
+
+This ZIP already includes the vendor folder. Composer is NOT required.
+
+1. Open config.local.php.
+2. Replace PASTE_EMAIL_PASSWORD_HERE with the mailbox/app password.
+3. Replace PASTE_NEW_CLICKUP_TOKEN_HERE with a newly regenerated ClickUp token.
+4. Confirm SMTP host, port, and encryption with the email provider.
+5. Upload all files, including vendor/ and .htaccess, to public_html.
+6. Ensure PHP extensions cURL, OpenSSL, JSON, and mbstring are enabled.
+7. Submit one Contact form and one Schedule form.
+8. Confirm:
+   - admin email received
+   - visitor confirmation email received
+   - ClickUp task created in Leads list 901108518949
+
+SECURITY
+--------
+The ClickUp token previously pasted into chat should not be reused. Regenerate it in ClickUp before deployment.
+
+TROUBLESHOOTING
+---------------
+If ClickUp works but email does not, verify SMTP credentials and port.
+If email works but ClickUp does not, verify cURL is enabled and the token has access to the Leads list.
+Server errors are written to the hosting PHP error log.

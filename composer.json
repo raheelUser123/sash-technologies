@@ -1,0 +1,7 @@
+{
+  "name": "urdigitaltech/website",
+  "description": "Sash Technologies website — PHP form handling via PHPMailer/SMTP",
+  "require": {
+    "phpmailer/phpmailer": "^6.9"
+  }
+}
