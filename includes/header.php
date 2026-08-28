@@ -55,7 +55,7 @@ $json_ld = [
             ],
             'contactPoint' => [
                 '@type' => 'ContactPoint',
-                'telephone' => '+1-716-400-0769',
+                'telephone' => '',
                 'contactType' => 'customer service',
                 'email' => 'info@sashtechnologies.com',
                 'areaServed' => 'US',
@@ -121,15 +121,11 @@ if (isset($page_schema) && is_array($page_schema)) {
 
 </script>
 <meta name="theme-color" content="#080b19">
-<link rel="icon" href="<?= $base_path ?>assets/images/favicon-square.png" sizes="any" type="image/png">
-<link rel="shortcut icon" href="<?= $base_path ?>assets/images/favicon-square.png" type="image/png">
-<link rel="icon" type="image/png" sizes="32x32" href="<?= $base_path ?>assets/images/favicon-square.png">
-<link rel="icon" type="image/png" sizes="16x16" href="<?= $base_path ?>assets/images/favicon-square.png">
-<link rel="apple-touch-icon" sizes="180x180" href="<?= $base_path ?>assets/images/favicon-square.png">
-<link rel="apple-touch-icon-precomposed" href="<?= $base_path ?>assets/images/favicon-square.png">
-<meta name="msapplication-TileColor" content="#080b19">
-<meta name="msapplication-TileImage" content="<?= $base_path ?>assets/images/favicon-square.png">
-<link rel="manifest" href="<?= $base_path ?>assets/favicon/site.webmanifest">
+<link rel="icon" href="<?= $base_path ?>favicon.ico" sizes="any">
+<link rel="icon" href="<?= $base_path ?>favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="<?= $base_path ?>apple-touch-icon.png">
+<link rel="manifest" href="<?= $base_path ?>site.webmanifest">
+<link rel="icon" type="image/png" sizes="96x96" href="<?= $base_path ?>favicon-96x96.png">
 <?php if ($current_page === 'lead-capture-system.php'): ?>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -154,10 +150,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="desktop-nav">
 <a href="<?= $base_path ?>">Home</a><a href="<?= $base_path ?>about">About</a>
 <div class="nav-dropdown"><button type="button">Services <svg class="nav-caret" viewBox="0 0 12 8" aria-hidden="true"><path d="M1.5 1.5 6 6l4.5-4.5"/></svg></button><div class="mega-menu"><div class="mega-intro"><span class="eyebrow">All capabilities</span><h3>One partner for digital growth.</h3><p>Strategy, design, technology, marketing and business support in one coordinated team.</p><a class="text-link" href="<?= $base_path ?>services">Explore all services →</a></div><div class="mega-links"><?php foreach ($all_services as $slug=>$service): ?><a href="<?= service_url($slug) ?>"><span><span class="service-menu-icon"><?= htmlspecialchars(strtoupper(substr($service['title'],0,2))) ?></span><?= htmlspecialchars($service['title']) ?></span><small>View details →</small></a><?php endforeach; ?></div></div></div>
-<a href="<?= $base_path ?>portfolio">Portfolio</a><a href="<?= $base_path ?>blog">Articles</a><a href="<?= $base_path ?>faq">FAQs</a><a href="<?= $base_path ?>careers">Careers</a><a href="<?= $base_path ?>lead-capture-system">Lead Capture</a>
+<a href="<?= $base_path ?>portfolio">Portfolio</a><a href="<?= $base_path ?>blog">Articles</a><a href="<?= $base_path ?>faq">FAQs</a><a href="<?= $base_path ?>careers">Careers</a>
 </div>
 <div class="nav-actions"><button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme"><span class="theme-icon">◐</span></button><a href="<?= $base_path ?>schedule" class="nav-cta">Book a Call</a><button class="menu-trigger" id="menu-trigger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button></div>
 </div></nav>
 <div class="menu-overlay" id="menu-overlay"></div>
-<aside class="side-panel" id="side-panel" aria-hidden="true"><div class="panel-head"><a href="<?= $base_path ?>" class="brand"><img src="<?= $base_path ?>assets/images/urdigilogo.png" alt="Sash Technologies logo" class="brand-logo"></a><button id="menu-close" class="menu-close" aria-label="Close menu">×</button></div><div class="panel-scroll"><nav class="panel-nav"><a href="<?= $base_path ?>">Home</a><a href="<?= $base_path ?>about">About</a><details open><summary>Services</summary><div class="panel-service-grid"><?php foreach ($all_services as $slug=>$service): ?><a href="<?= service_url($slug) ?>"><span class="service-menu-icon"><?= htmlspecialchars(strtoupper(substr($service['title'],0,2))) ?></span><?= htmlspecialchars($service['title']) ?></a><?php endforeach; ?></div></details><a href="<?= $base_path ?>portfolio">Portfolio</a><a href="<?= $base_path ?>blog">Articles</a><a href="<?= $base_path ?>faq">FAQs</a><a href="<?= $base_path ?>careers">Careers</a><a href="<?= $base_path ?>lead-capture-system">Lead Capture System</a><a href="<?= $base_path ?>contact">Contact</a><a href="<?= $base_path ?>schedule">Schedule a Call</a></nav></div><div class="panel-contact"><span>Let’s talk</span><a href="mailto:info@sashtechnologies.com">info@sashtechnologies.com</a><a href="tel:17164000769">(666) 399-1245</a><p>Buffalo, New York</p><div class="panel-cta-row"><a class="btn btn-primary" href="<?= $base_path ?>contact">Start a project</a><a class="btn btn-ghost" href="<?= $base_path ?>schedule">Book a call</a></div></div></aside>
+<aside class="side-panel" id="side-panel" aria-hidden="true"><div class="panel-head"><a href="<?= $base_path ?>" class="brand"><img src="<?= $base_path ?>assets/images/urdigilogo.png" alt="Sash Technologies logo" class="brand-logo"></a><button id="menu-close" class="menu-close" aria-label="Close menu">×</button></div><div class="panel-scroll"><nav class="panel-nav"><a href="<?= $base_path ?>">Home</a><a href="<?= $base_path ?>about">About</a><details open><summary>Services</summary><div class="panel-service-grid"><?php foreach ($all_services as $slug=>$service): ?><a href="<?= service_url($slug) ?>"><span class="service-menu-icon"><?= htmlspecialchars(strtoupper(substr($service['title'],0,2))) ?></span><?= htmlspecialchars($service['title']) ?></a><?php endforeach; ?></div></details><a href="<?= $base_path ?>portfolio">Portfolio</a><a href="<?= $base_path ?>blog">Articles</a><a href="<?= $base_path ?>faq">FAQs</a><a href="<?= $base_path ?>careers">Careers</a><a href="<?= $base_path ?>contact">Contact</a><a href="<?= $base_path ?>schedule">Schedule a Call</a></nav></div><div class="panel-contact"><span>Let’s talk</span><a href="mailto:info@sashtechnologies.com">info@sashtechnologies.com</a><a href="tel:17164000769">(666) 399-1245</a><p>Buffalo, New York</p><div class="panel-cta-row"><a class="btn btn-primary" href="<?= $base_path ?>contact">Start a project</a><a class="btn btn-ghost" href="<?= $base_path ?>schedule">Book a call</a></div></div></aside>
 <main>

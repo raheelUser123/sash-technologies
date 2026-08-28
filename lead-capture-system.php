@@ -32,7 +32,7 @@ include 'includes/header.php';
     <div class="eyebrow center" style="justify-content:center;"><span class="dot"></span>Full System Playbook</div>
     <h2 style="font-size:clamp(2.2rem, 4vw, 3.8rem); font-weight:800; margin-bottom:12px;">See <span style="color:var(--cyan);">Chloe AI</span> in Action <span class="text-dim" style="font-size:0.55em;">(60 Seconds)</span></h2>
     <p class="center" style="max-width:720px; font-size:1.05rem; margin-bottom:28px;">This is the real flow: first ring &rarr; instant intake &rarr; smart routing &rarr; CRM transcript summary.</p>
-    <div class="card" style="padding:10px; background:#050814; border:1px solid rgba(52,230,211,0.3); border-radius:24px; box-shadow:0 30px 80px rgba(0,0,0,0.5);">
+    <div class="card" style="padding:10px; background:#050814; border:1px solid rgba(122,89,211,0.3); border-radius:24px; box-shadow:0 30px 80px rgba(0,0,0,0.5);">
       <video controls playsinline preload="metadata" style="width:100%; border-radius:18px; display:block; aspect-ratio:16/9; object-fit:cover;" src="assets/video/chloevideo/Chloe (Reliable Front Desk) (2).mp4"></video>
     </div>
   </div>
@@ -498,7 +498,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <div style="border-top:1px solid rgba(255,255,255,0.1); padding-top:16px;">
           <small style="color:var(--muted); display:block; margin-bottom:6px;">Prefer to talk right now?</small>
-          <a href="tel:7163400767" class="btn btn-ghost btn-block" style="border-color:rgba(52,230,211,0.4); color:var(--cyan);">
+          <a href="tel:7163400767" class="btn btn-ghost btn-block" style="border-color:rgba(122,89,211,0.4); color:var(--cyan);">
             📞 Dial (716) 340-0767
           </a>
         </div>
