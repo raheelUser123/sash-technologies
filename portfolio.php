@@ -203,16 +203,19 @@ $slice = array_slice($filtered_items, ($page - 1) * $per, $per);
     <div class="portfolio-filter reveal">
       <span>Explore by capability</span>
       <div>
-        <a href="?cat=all#portfolio-grid" class="filter-btn <?= $cat_filter==='all'?'active':'' ?>">All (<?= count($all_portfolio_items) ?>)</a>
-        <a href="?cat=web#portfolio-grid" class="filter-btn <?= $cat_filter==='web'?'active':'' ?>">Website</a>
-        <a href="?cat=branding#portfolio-grid" class="filter-btn <?= $cat_filter==='branding'?'active':'' ?>">Branding</a>
-        <a href="?cat=logo#portfolio-grid" class="filter-btn <?= $cat_filter==='logo'?'active':'' ?>">Logo Designs</a>
+        <a href="?cat=all#portfolio-grid" data-cat="all" class="filter-btn <?= $cat_filter==='all'?'active':'' ?>">All (<?= count($all_portfolio_items) ?>)</a>
+        <a href="?cat=web#portfolio-grid" data-cat="web" class="filter-btn <?= $cat_filter==='web'?'active':'' ?>">Website</a>
+        <a href="?cat=branding#portfolio-grid" data-cat="branding" class="filter-btn <?= $cat_filter==='branding'?'active':'' ?>">Branding</a>
+        <a href="?cat=logo#portfolio-grid" data-cat="logo" class="filter-btn <?= $cat_filter==='logo'?'active':'' ?>">Logo Designs</a>
       </div>
     </div>
 
     <div class="portfolio-grid premium-portfolio">
-      <?php foreach($slice as $x): ?>
+      <?php foreach($all_portfolio_items as $x): 
+        $isVisible = ($cat_filter === 'all' || $cat_filter === $x['code']);
+      ?>
         <article class="portfolio-card reveal" 
+                 style="<?= $isVisible ? '' : 'display:none;' ?>"
                  data-category="<?= htmlspecialchars($x['code']) ?>" 
                  data-title="<?= htmlspecialchars($x['title']) ?>" 
                  data-cat="<?= htmlspecialchars($x['cat']) ?>" 
@@ -346,6 +349,32 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         openModal(card);
       });
+    });
+  });
+
+  const filterBtns = document.querySelectorAll('.portfolio-filter .filter-btn');
+  const portfolioCards = document.querySelectorAll('.portfolio-card');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetCat = btn.getAttribute('data-cat') || 'all';
+
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      portfolioCards.forEach(card => {
+        const itemCat = card.getAttribute('data-category');
+        if (targetCat === 'all' || itemCat === targetCat) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      if (window.history && window.history.pushState) {
+        window.history.pushState(null, '', '?cat=' + targetCat + '#portfolio-grid');
+      }
     });
   });
 

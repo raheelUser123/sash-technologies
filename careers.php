@@ -25,7 +25,7 @@
 <label class="form-field">Location<select name="location" required><option value="">Select your location</option><option>Remote — Pakistan</option><option>Remote — India</option><option>Remote — Philippines</option><option>Remote — Other</option><option>On-site</option></select></label>
 <label class="form-field">LinkedIn profile<input type="url" name="linkedin" placeholder="https://linkedin.com/in/..."></label>
 <label class="form-field">Portfolio / website<input type="url" name="portfolio" placeholder="https://..."></label>
-<div class="form-actions end"><button type="button" class="btn btn-primary apply-next" data-go="2">Continue →</button></div>
+<div class="form-actions end"><button type="button" class="btn btn-primary apply-next" data-go="1">Continue →</button></div>
 </fieldset>
 
 <fieldset class="form-step" data-step="2">
@@ -33,7 +33,7 @@
 <label class="form-field">Resume / CV (PDF, DOC, DOCX, RTF or TXT — max 5 MB)<input type="file" name="resume" id="resume-file" accept=".pdf,.doc,.docx,.rtf,.txt" required></label>
 <p class="form-note" id="resume-name"></p>
 <label class="form-field">Why you are a good fit (optional)<textarea name="message" placeholder="Tell us briefly about your sales experience, achievements and availability..."></textarea></label>
-<div class="form-actions"><button type="button" class="btn btn-ghost apply-back" data-go="1">← Back</button><button type="button" class="btn btn-primary apply-next" data-go="3">Continue →</button></div>
+<div class="form-actions"><button type="button" class="btn btn-ghost apply-back" data-go="0">← Back</button><button type="button" class="btn btn-primary apply-next" data-go="2">Continue →</button></div>
 </fieldset>
 
 <fieldset class="form-step" data-step="3">
@@ -41,7 +41,7 @@
 <div class="review-list" id="review-list"></div>
 <label class="form-field review-ok"><input type="checkbox" id="confirm-ok" required> I confirm that the information and resume provided are accurate.</label>
 <div id="form-status" class="form-note" role="status"></div>
-<div class="form-actions"><button type="button" class="btn btn-ghost apply-back" data-go="2">← Back</button><button type="submit" class="btn btn-primary" id="submit-btn">Submit Application</button></div>
+<div class="form-actions"><button type="button" class="btn btn-ghost apply-back" data-go="1">← Back</button><button type="submit" class="btn btn-primary" id="submit-btn">Submit Application</button></div>
 <p class="form-note apply-note">We reply to every application. No third-party recruiters.</p>
 </fieldset>
 </form>
