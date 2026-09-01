@@ -121,11 +121,14 @@ if (isset($page_schema) && is_array($page_schema)) {
 
 </script>
 <meta name="theme-color" content="#080b19">
-<link rel="icon" href="<?= $base_path ?>favicon.ico" sizes="any">
-<link rel="icon" href="<?= $base_path ?>favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="<?= $base_path ?>apple-touch-icon.png">
-<link rel="manifest" href="<?= $base_path ?>site.webmanifest">
+<link rel="shortcut icon" href="<?= $base_path ?>favicon.ico" type="image/x-icon">
+<link rel="icon" href="<?= $base_path ?>favicon.ico" type="image/x-icon">
 <link rel="icon" type="image/png" sizes="96x96" href="<?= $base_path ?>favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?= $base_path ?>favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?= $base_path ?>favicon-96x96.png">
+<link rel="icon" href="<?= $base_path ?>favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="180x180" href="<?= $base_path ?>apple-touch-icon.png">
+<link rel="manifest" href="<?= $base_path ?>site.webmanifest">
 <?php if ($current_page === 'lead-capture-system.php'): ?>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
