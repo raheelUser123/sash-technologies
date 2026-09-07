@@ -1125,3 +1125,25 @@ body.light .tech-badge {
   0% { transform: translateX(-50%); }
   100% { transform: translateX(0); }
 }
+
+/* CTA Logo Image Styling */
+.cta-logo {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.cta-logo img {
+  max-width: 140px !important;
+  max-height: 140px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  filter: drop-shadow(0 12px 28px rgba(122, 89, 211, 0.45)) !important;
+  transform: rotate(-4deg) !important;
+  transition: transform 0.3s ease !important;
+}
+
+.cta-panel:hover .cta-logo img {
+  transform: rotate(0deg) scale(1.05) !important;
+}
