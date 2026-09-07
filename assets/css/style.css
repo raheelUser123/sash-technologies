@@ -938,3 +938,190 @@ body.light .query-popup-content a.btn.btn-primary {
   color: #ffffff !important;
   box-shadow: 0 8px 24px rgba(122, 89, 211, 0.25) !important;
 }
+
+/* Pricing section SVG icons styling */
+.price-card ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+.price-card ul li {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+.price-card ul li::before {
+  content: '' !important;
+  display: inline-block !important;
+  width: 18px !important;
+  height: 18px !important;
+  background: url('../images/Pricing  section icon  sash technologies/download.svg') no-repeat center center !important;
+  background-size: contain !important;
+  flex-shrink: 0 !important;
+}
+.price-card .btn::after {
+  content: '' !important;
+  display: inline-block !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin-left: 8px !important;
+  background: url('../images/Pricing  section icon  sash technologies/download (1).svg') no-repeat center center !important;
+  background-size: contain !important;
+  vertical-align: middle !important;
+  filter: brightness(0) invert(1);
+}
+body.light .price-card .btn.btn-ghost::after {
+  filter: none !important;
+}
+
+/* Banner Typography Consistency across all pages */
+.hero h1,
+.page-hero h1,
+.split-page-hero h1,
+.split-hero-copy h1,
+.hero-copy h1 {
+  font-family: Barlow, sans-serif !important;
+  font-size: clamp(2.6rem, 4.2vw, 4.6rem) !important;
+  font-weight: 800 !important;
+  line-height: 1.05 !important;
+  letter-spacing: -0.035em !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.35em !important;
+}
+
+.hero .eyebrow,
+.page-hero .eyebrow,
+.split-hero-copy .eyebrow {
+  font-size: 0.76rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.16em !important;
+  text-transform: uppercase !important;
+  color: var(--cyan) !important;
+  margin-bottom: 18px !important;
+}
+
+.hero .lead,
+.page-hero .lead,
+.split-hero-copy .lead {
+  font-size: clamp(1.05rem, 1.35vw, 1.25rem) !important;
+  line-height: 1.65 !important;
+}
+
+.page-hero,
+.split-page-hero {
+  padding: 110px 0 90px !important;
+}
+
+/* 2-Row Looping Tech Marquee Ticker */
+.tech-marquee-section {
+  padding: 42px 0 38px !important;
+  border-top: 1px solid var(--line) !important;
+  border-bottom: 1px solid var(--line) !important;
+  background: var(--bg) !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.tech-marquee-label {
+  text-align: center !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.22em !important;
+  text-transform: uppercase !important;
+  color: var(--cyan) !important;
+  margin-bottom: 24px !important;
+  opacity: 0.85;
+}
+
+.tech-marquee-container {
+  position: relative !important;
+  overflow: hidden !important;
+  margin-bottom: 14px !important;
+  display: flex !important;
+}
+
+.tech-marquee-container:last-child {
+  margin-bottom: 0 !important;
+}
+
+.tech-marquee-fade-left {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  width: 90px !important;
+  z-index: 10 !important;
+  background: linear-gradient(to right, var(--bg), transparent) !important;
+  pointer-events: none !important;
+}
+
+.tech-marquee-fade-right {
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  width: 90px !important;
+  z-index: 10 !important;
+  background: linear-gradient(to left, var(--bg), transparent) !important;
+  pointer-events: none !important;
+}
+
+.tech-marquee-track {
+  display: flex !important;
+  gap: 12px !important;
+  width: max-content !important;
+  will-change: transform !important;
+}
+
+.tech-marquee-track.scroll-left {
+  animation: techMarqueeLeft 32s linear infinite !important;
+}
+
+.tech-marquee-track.scroll-right {
+  animation: techMarqueeRight 36s linear infinite !important;
+}
+
+.tech-marquee-track:hover {
+  animation-play-state: paused !important;
+}
+
+.tech-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 8px 16px !important;
+  border-radius: 10px !important;
+  border: 1px solid var(--line) !important;
+  background: rgba(255, 255, 255, 0.03) !important;
+  color: var(--text) !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  white-space: nowrap !important;
+  transition: all 0.25s ease !important;
+}
+
+body.light .tech-badge {
+  background: #ffffff !important;
+  border-color: #dce3f0 !important;
+  color: #11162a !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04) !important;
+}
+
+.tech-badge:hover {
+  border-color: var(--cyan) !important;
+  transform: translateY(-2px) !important;
+  color: var(--cyan) !important;
+}
+
+.tech-badge span {
+  font-size: 15px !important;
+}
+
+@keyframes techMarqueeLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes techMarqueeRight {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}

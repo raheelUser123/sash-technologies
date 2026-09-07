@@ -1,0 +1,160 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,46,-44,0,24,1)">
+			<stop offset="0" stop-color="#094bc1"/>
+			<stop offset="1" stop-color="#ef5cdb"/>
+		</linearGradient>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAX1QTFRF/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////K6G5wAAAH90Uk5TAV7X+vvrlA0AX+F7QkBaz6vZeSf1Jf0/C50QF4kmcw5oKFf+PSD4IzbdLe3C8iHVWY8YfP+QEfRjb8rH6Gb3bjTRMcBJCAeOLlV/UAwWr/DDnMja22Wq5jkGUmQKQQkzL8mSA6VrBE9L+WFIzKKnW12gYHIC5Fi6pEap7H2AKrbFF0EAAAEqSURBVHicY2RgBAIGMECwQBxOFIkPHHAJQcZvcFXcjIyf4RJijAjw/JfCM7iEMpLELXXGG6gSX8D6LjOgSgiBBB8qMH7+8BJV4okp408OsFFH0CQYbBkPQXj2jAdQJBgYhPRP/gRJHAQLslsy7oFIuDIy3hWHe4eB9/9BG4iEJ+PZlwxIwJXtHkTC5+VpBhTgywiR8P+0H8gLeHco8P965XtAZtAfJAm7d3zHlLjUt3mvAUuwRK6GSoRd014ZceWN8c89YIlERsalWCV4/kUxbrMBScTd0FyYwMj4EirBkbw05oo42PLUPXK8UoxPYBIg10FcFccFDOftYYxTEBK5jJNQ/eHIC5HIv7WeA1k85xcXRKLw8F1OdYS4LgvjcYgEg5UVI7KOvuIuABrdcq6IId0pAAAAAElFTkSuQmCC"/>
+		<image  width="26" height="26" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAAXNSR0IB2cksfwAAAe9QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////E09WKQAAAKV0Uk5TAG3ZyegOKDCSVQS6PxXVopvLYBS+o7WBwwMLVGbMv9gPPGNHh8ISApj1XSLk9kVoRMcfEFIxzt00GU9/paeTeIOUOxhfcgYBGkqywamahormi+PpWi7h25UdJ8qrKizq8MURW/FJentiE6+tjbceBxbz7qQXCCNlwCazsW4KHLRMU8a7b7a9hdrSdC2mrKrRsIid7cjP1GvvmRskbLx9OIRXl2dx6nCYkwAAAcBJREFUeJxjZIADRkZGIP6N4LMx4pBiY+RjZMQqxcbIKPGbDSz8j4EZLPUTJM7B+J2LkVGV8RYDgzpQxzWErdqMjO+EvzGqvvumdvubASPjOZiEGu8X3sefVYBSAkAdJxgUHjBYMkLAFQbd02aMr4FSL8zBAueMgcSrX7KMjDt1ZIDMW99AdoUedGBkfCT/bmcUUGivoTCQ/MR/BiRly7hG3mwfyJb/D8T8GF9KXPz95ON3PaCUy3Ut5BD5c8j8qvlMx5163yCORwFqHowTGRhAUt5bfdDkGBkPnAVL+b8VAfsdWeqCIeNGsNT8OsbJfhsRUtIcPmtC14Kk+A5+8mNcaImQUm+rZny3ExRQljYYdtV7HpDB5kIgcJJ89/Qbo2HUY0wphlNmzy4w9gDd1i8Siyz+n6m9goFpFtjNE3+WIUu5+ZxeDLKSoeC83fxcoL/OX4oD8vMCHZn2/njuLrd+FyOrh/dKNiuJhg9M/P+BUo2/Ktka2R/3enimMLqHLNP/J3p7d0sWOFUwzEtWE7n6a+qLNWfBdi3ouLGQMQ5ikaWSwTrfG4vAdjEwSP72MPuy+TjUEYvfMr1VXbyTgQEArpuZqXRNLgMAAAAASUVORK5CYII="/>
+		<image  width="22" height="27" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAMAAABP9I/XAAAAAXNSR0IB2cksfwAAAgpQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////tpz+NAAAAK50Uk5TAA+n1m8JDm7cogJj//Gzue1Dsfrj1PumLvj5rFdSbFNUuPcRXt2Z3v3zj2bu02AQicz29WS//Ii7W82AFmK1XTgxIuWrfn+K35XpUYLOIOja8Nuu4CoBqE29oJLXBHI/hWVoC8vqtHjHarZQt5/yvKSlNgxVa8KbqdX+ySicc7rr2RSMdcrGdFbFGJaYcQVMjVzvJzCLNdCyOksSTjth5BmeaYajwdITyCNFJElY0zWrBgAAAhZJREFUeJxjZAABRhD4zcAGor6BBcDC3IwQqT8MDKzvEcJCvxjYGRnfCTJ9Y+B+CReWABvyShxEfmR9ARFWZvwg+J+JkfEJr8A/ZpDMjV8MjPqMEHCNgUGT6aoWE+MHLqB5jOZXGRgMGc8xcGqBJE8yWDAeZ2CwYnQ/ymBzmJHB9qnMIXvGa68YGH677WfQZ/Rj3Ksttt9lu9duBpY/DJqyu9w/HfdgZAxj3Oqz+6eK5mawS/0YNwbcuKGiy8gQty54LYPEExawsB7PMQ7xh4KPGRnMr7L+ZhDivw8W1tFYI221OmweYzLjilCW5UYay8DC0W92xjAujtvJmL33SQLjfKBI0u2Ln5JnKD221pzDIMBYOJtBy2beHwY9y4Of/Bh/zks6/fIVgz9j/Mdj37L+/5wnJm8G9M4k13MxE7XO8jEy1HQYMrozXlNjZexhyGO/++ye8CV3DlAINjEudXhsybjgcR1QfbOVSxk4BGOP/IuanMQrsOZnzM91N793bfcqAgn3z/yZX8MAAxWvd5ktBAqzNTcztHZ+avsowMh4cx5fTcO37ju9jAzWb58w9DAyvqgDKp3NyHh8BUOeShKjX2AuKJKYjPcBqQXXpv8HUqW/GROvyPk1vpKp2rIKZPLi4m+R9uuD6hnDgNzwrbM6L4ItXM6Y0pnNwBAGjvmVe1zDoA7xPj8xFJ5O1sR9gzlwbTCIBABvZ62Ce4dP3QAAAABJRU5ErkJggg=="/>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,46,-44,0,24,1)">
+			<stop offset="0" stop-color="#094bc1"/>
+			<stop offset="1" stop-color="#ef5cdb"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: none;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+		.s2 { display: none;fill: #ffffff;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+		.s3 { display: none;fill: url(#g2) } 
+		.s4 { fill: #000000;stroke: #000000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+	</style>
+	<path id="Shape 1" fill-rule="evenodd" class="s0" d="m10 1h28c4.42 0 8 3.58 8 8v30c0 4.42-3.58 8-8 8h-28c-4.42 0-8-3.58-8-8v-30c0-4.42 3.58-8 8-8z"/>
+	<g id="Folder 6" style="display: none">
+		<filter id="f0">
+			<feFlood flood-color="#ffffff" flood-opacity="1" />
+			<feBlend mode="normal" in2="SourceGraphic"/>
+			<feComposite in2="SourceAlpha" operator="in" />
+		</filter>
+		<g id="Folder 2" style="display: none" filter="url(#f0)">
+			<path fill-rule="evenodd" class="s1" d="m34 19l-8.5 8.5-5-5-6.5 6.5"/>
+			<path fill-rule="evenodd" class="s1" d="m28 19h6v6"/>
+		</g>
+		<path class="s2" d="m29.5 31h-8.5c-2.65 0-5.07-1.49-6.26-3.86-1.18-2.37-0.93-5.2 0.65-7.32 1.58-2.13 4.23-3.17 6.83-2.71 2.61 0.46 4.73 2.35 5.49 4.89h1.79c1.19 0 2.34 0.47 3.18 1.32 0.85 0.84 1.32 1.99 1.32 3.18 0 1.19-0.47 2.34-1.32 3.18-0.84 0.85-1.99 1.32-3.18 1.32z"/>
+		<filter id="f1">
+			<feFlood flood-color="#ffffff" flood-opacity="1" />
+			<feBlend mode="normal" in2="SourceGraphic"/>
+			<feComposite in2="SourceAlpha" operator="in" />
+		</filter>
+		<g id="Folder 1" style="display: none" filter="url(#f1)">
+			<path fill-rule="evenodd" class="s1" d="m18 16h12c1.1 0 2 0.9 2 2v12c0 1.1-0.9 2-2 2h-12c-1.1 0-2-0.9-2-2v-12c0-1.1 0.9-2 2-2z"/>
+			<path fill-rule="evenodd" class="s1" d="m22 21h4c0.55 0 1 0.45 1 1v4c0 0.55-0.45 1-1 1h-4c-0.55 0-1-0.45-1-1v-4c0-0.55 0.45-1 1-1z"/>
+			<path fill-rule="evenodd" class="s1" d="m27 14v2"/>
+			<path fill-rule="evenodd" class="s1" d="m27 32v2"/>
+			<path fill-rule="evenodd" class="s1" d="m14 27h2"/>
+			<path fill-rule="evenodd" class="s1" d="m14 21h2"/>
+			<path fill-rule="evenodd" class="s1" d="m32 27h2"/>
+			<path fill-rule="evenodd" class="s1" d="m32 21h2"/>
+			<path fill-rule="evenodd" class="s1" d="m21 14v2"/>
+			<path fill-rule="evenodd" class="s1" d="m21 32v2"/>
+		</g>
+		<filter id="f2">
+			<feFlood flood-color="#ffffff" flood-opacity="1" />
+			<feBlend mode="normal" in2="SourceGraphic"/>
+			<feComposite in2="SourceAlpha" operator="in" />
+		</filter>
+		<g id="Folder 1" style="display: none" filter="url(#f2)">
+			<path class="s1" d="m24.83 14.18q-0.2-0.09-0.41-0.13-0.21-0.05-0.42-0.05-0.21 0-0.42 0.05-0.21 0.04-0.41 0.13l-8.57 3.9q-0.27 0.12-0.43 0.37-0.16 0.25-0.17 0.54 0.01 0.3 0.17 0.55 0.16 0.25 0.43 0.37l8.58 3.91q0.2 0.09 0.41 0.13 0.21 0.05 0.42 0.05 0.21 0 0.42-0.05 0.21-0.04 0.41-0.13l8.58-3.9q0.27-0.12 0.43-0.37 0.16-0.25 0.17-0.55-0.01-0.29-0.17-0.54-0.16-0.25-0.43-0.37z"/>
+			<path fill-rule="evenodd" class="s1" d="m34 29.65l-9.17 4.16q-0.2 0.09-0.41 0.13-0.21 0.05-0.42 0.05-0.21 0-0.42-0.05-0.21-0.04-0.41-0.13l-9.17-4.16"/>
+			<path fill-rule="evenodd" class="s1" d="m34 24.65l-9.17 4.16q-0.2 0.09-0.41 0.13-0.21 0.05-0.42 0.05-0.21 0-0.42-0.05-0.21-0.04-0.41-0.13l-9.17-4.16"/>
+		</g>
+		<filter id="f3">
+			<feFlood flood-color="#ffffff" flood-opacity="1" />
+			<feBlend mode="normal" in2="SourceGraphic"/>
+			<feComposite in2="SourceAlpha" operator="in" />
+		</filter>
+		<g id="Folder 1" style="display: none" filter="url(#f3)">
+			<path fill-rule="evenodd" class="s1" d="m28 30l6-6-6-6"/>
+			<path fill-rule="evenodd" class="s1" d="m20 18l-6 6 6 6"/>
+		</g>
+		<g id="Folder 3" style="display: none">
+		</g>
+		<use id="Background" style="display: none" href="#img1" x="12" y="12"/>
+		<use id="Background" style="display: none" href="#img2" x="11" y="11"/>
+		<use id="Background" style="display: none" href="#img3" x="13" y="11"/>
+		<g id="Folder 5" style="display: none">
+			<path id="Shape 2" fill-rule="evenodd" class="s3" d="m24 47c-12.17 0-22-10.28-22-23 0-12.72 9.83-23 22-23 12.17 0 22 10.28 22 23 0 12.72-9.83 23-22 23z"/>
+			<filter id="f4">
+				<feFlood flood-color="#ffffff" flood-opacity="1" />
+				<feBlend mode="normal" in2="SourceGraphic"/>
+				<feComposite in2="SourceAlpha" operator="in" />
+			</filter>
+			<g id="Folder 4" style="display: none" filter="url(#f4)">
+				<path fill-rule="evenodd" class="s1" d="m24 34c-5.53 0-10-4.47-10-10 0-5.53 4.47-10 10-10 5.53 0 10 4.47 10 10 0 5.53-4.47 10-10 10z"/>
+				<path fill-rule="evenodd" class="s1" d="m24 30c-3.32 0-6-2.68-6-6 0-3.32 2.68-6 6-6 3.32 0 6 2.68 6 6 0 3.32-2.68 6-6 6z"/>
+				<path fill-rule="evenodd" class="s1" d="m24 26c-1.11 0-2-0.89-2-2 0-1.11 0.89-2 2-2 1.11 0 2 0.89 2 2 0 1.11-0.89 2-2 2z"/>
+			</g>
+		</g>
+		<filter id="f5">
+			<feFlood flood-color="#ffffff" flood-opacity="1" />
+			<feBlend mode="normal" in2="SourceGraphic"/>
+			<feComposite in2="SourceAlpha" operator="in" />
+		</filter>
+		<g id="Folder 1" style="display: none" filter="url(#f5)">
+			<path fill-rule="evenodd" class="s1" d="m28 33v-2q0-0.8-0.3-1.53-0.31-0.73-0.87-1.3-0.57-0.56-1.3-0.87-0.73-0.3-1.53-0.3h-6q-0.8 0-1.53 0.3-0.73 0.31-1.3 0.87-0.56 0.57-0.87 1.3-0.3 0.73-0.3 1.53v2"/>
+			<path fill-rule="evenodd" class="s1" d="m21 23c-2.21 0-4-1.79-4-4 0-2.21 1.79-4 4-4 2.21 0 4 1.79 4 4 0 2.21-1.79 4-4 4z"/>
+			<path fill-rule="evenodd" class="s1" d="m20 33v-2q0-0.66-0.22-1.29-0.21-0.63-0.62-1.16-0.41-0.52-0.96-0.89-0.56-0.36-1.2-0.53"/>
+			<path fill-rule="evenodd" class="s1" d="m28 15.13c0.86 0.22 1.62 0.72 2.17 1.42 0.54 0.7 0.84 1.57 0.84 2.45 0 0.89-0.3 1.76-0.84 2.46-0.55 0.7-1.31 1.2-2.17 1.42"/>
+		</g>
+		<filter id="f6">
+			<feFlood flood-color="#ffffff" flood-opacity="1" />
+			<feBlend mode="normal" in2="SourceGraphic"/>
+			<feComposite in2="SourceAlpha" operator="in" />
+		</filter>
+		<g id="Folder 1" style="display: none" filter="url(#f6)">
+			<path fill-rule="evenodd" class="s1" d="m27.48 24.89l1.51 8.53q0.03 0.15-0.04 0.29-0.07 0.14-0.2 0.22-0.14 0.08-0.29 0.07-0.16-0.02-0.28-0.11l-3.58-2.69q-0.13-0.1-0.28-0.15-0.15-0.05-0.32-0.05-0.16 0-0.31 0.05-0.16 0.05-0.29 0.15l-3.58 2.68q-0.12 0.1-0.28 0.12-0.15 0.01-0.29-0.07-0.13-0.08-0.2-0.22-0.07-0.14-0.04-0.29l1.51-8.53"/>
+			<path fill-rule="evenodd" class="s1" d="m24 26c-3.32 0-6-2.68-6-6 0-3.32 2.68-6 6-6 3.32 0 6 2.68 6 6 0 3.32-2.68 6-6 6z"/>
+		</g>
+		<filter id="f7">
+			<feFlood flood-color="#ffffff" flood-opacity="1" />
+			<feBlend mode="normal" in2="SourceGraphic"/>
+			<feComposite in2="SourceAlpha" operator="in" />
+		</filter>
+		<g id="Folder 1" style="display: none" filter="url(#f7)">
+			<path fill-rule="evenodd" class="s4" d="m25.5 19c-0.28 0-0.5-0.22-0.5-0.5 0-0.28 0.22-0.5 0.5-0.5 0.28 0 0.5 0.22 0.5 0.5 0 0.28-0.22 0.5-0.5 0.5z"/>
+			<path fill-rule="evenodd" class="s4" d="m15.5 23c-0.28 0-0.5-0.22-0.5-0.5 0-0.28 0.22-0.5 0.5-0.5 0.28 0 0.5 0.22 0.5 0.5 0 0.28-0.22 0.5-0.5 0.5z"/>
+			<path fill-rule="evenodd" class="s4" d="m20.5 20c-0.28 0-0.5-0.22-0.5-0.5 0-0.28 0.22-0.5 0.5-0.5 0.28 0 0.5 0.22 0.5 0.5 0 0.28-0.22 0.5-0.5 0.5z"/>
+			<path fill-rule="evenodd" class="s4" d="m18.5 25c-0.28 0-0.5-0.22-0.5-0.5 0-0.28 0.22-0.5 0.5-0.5 0.28 0 0.5 0.22 0.5 0.5 0 0.28-0.22 0.5-0.5 0.5z"/>
+			<path class="s1" d="m24 14c-5.5 0-10 4.5-10 10 0 5.5 4.5 10 10 10 0.93 0 1.65-0.75 1.65-1.69 0-0.44-0.18-0.83-0.44-1.12q-0.44-0.43-0.44-1.13 0-0.33 0.12-0.64 0.13-0.31 0.36-0.55 0.24-0.23 0.55-0.36 0.31-0.12 0.64-0.12h2c3.05 0 5.55-2.5 5.55-5.55-0.03-4.83-4.53-8.84-9.99-8.84z"/>
+		</g>
+	</g>
+	<filter id="f8">
+		<feFlood flood-color="#ffffff" flood-opacity="1" />
+		<feBlend mode="normal" in2="SourceGraphic"/>
+		<feComposite in2="SourceAlpha" operator="in" />
+	</filter>
+	<g id="Folder 1" style="display: none" filter="url(#f8)">
+		<path fill-rule="evenodd" class="s1" d="m24 35c-5.53 0-10-4.47-10-10 0-5.53 4.47-10 10-10 5.53 0 10 4.47 10 10 0 5.53-4.47 10-10 10z"/>
+		<path fill-rule="evenodd" class="s1" d="m24 19v6l4 2"/>
+	</g>
+	<filter id="f9">
+		<feFlood flood-color="#ffffff" flood-opacity="1" />
+		<feBlend mode="normal" in2="SourceGraphic"/>
+		<feComposite in2="SourceAlpha" operator="in" />
+	</filter>
+	<g id="Folder 1" style="display: none" filter="url(#f9)">
+		<path fill-rule="evenodd" class="s1" d="m16 17h16c1.1 0 2 0.9 2 2v10c0 1.1-0.9 2-2 2h-16c-1.1 0-2-0.9-2-2v-10c0-1.1 0.9-2 2-2z"/>
+		<path fill-rule="evenodd" class="s1" d="m20 35h8"/>
+		<path fill-rule="evenodd" class="s1" d="m24 31v4"/>
+	</g>
+	<filter id="f10">
+		<feFlood flood-color="#ffffff" flood-opacity="1" />
+		<feBlend mode="normal" in2="SourceGraphic"/>
+		<feComposite in2="SourceAlpha" operator="in" />
+	</filter>
+	<g id="Folder 1" style="display: none" filter="url(#f10)">
+		<path class="s1" d="m28 33v-2q0-0.8-0.3-1.53-0.31-0.73-0.87-1.3-0.57-0.56-1.3-0.87-0.73-0.3-1.53-0.3h-6q-0.8 0-1.53 0.3-0.73 0.31-1.3 0.87-0.56 0.57-0.87 1.3-0.3 0.73-0.3 1.53v2"/>
+		<path fill-rule="evenodd" class="s1" d="m21 23c-2.21 0-4-1.79-4-4 0-2.21 1.79-4 4-4 2.21 0 4 1.79 4 4 0 2.21-1.79 4-4 4z"/>
+		<path class="s1" d="m34 33v-2q0-0.66-0.22-1.29-0.21-0.63-0.62-1.16-0.41-0.52-0.96-0.89-0.56-0.36-1.2-0.53"/>
+		<path class="s1" d="m28 15.13c0.86 0.22 1.62 0.72 2.17 1.42 0.54 0.7 0.84 1.57 0.84 2.45 0 0.89-0.3 1.76-0.84 2.46-0.55 0.7-1.31 1.2-2.17 1.42"/>
+	</g>
+	<filter id="f11">
+		<feFlood flood-color="#ffffff" flood-opacity="1" />
+		<feBlend mode="normal" in2="SourceGraphic"/>
+		<feComposite in2="SourceAlpha" operator="in" />
+	</filter>
+	<g id="Folder 1" filter="url(#f11)">
+		<path class="s1" d="m24 19v14"/>
+		<path class="s1" d="m15 30q-0.2 0-0.38-0.08-0.19-0.07-0.33-0.21-0.14-0.14-0.21-0.33-0.08-0.18-0.08-0.38v-13q0-0.2 0.08-0.38 0.07-0.19 0.21-0.33 0.14-0.14 0.33-0.21 0.18-0.08 0.38-0.08h5q0.8 0 1.53 0.3 0.73 0.31 1.3 0.87 0.56 0.57 0.87 1.3 0.3 0.73 0.3 1.53 0-0.8 0.3-1.53 0.31-0.73 0.87-1.3 0.57-0.56 1.3-0.87 0.73-0.3 1.53-0.3h5q0.2 0 0.38 0.08 0.19 0.07 0.33 0.21 0.14 0.14 0.21 0.33 0.08 0.18 0.08 0.38v13q0 0.2-0.08 0.38-0.07 0.19-0.21 0.33-0.14 0.14-0.33 0.21-0.18 0.08-0.38 0.08h-6q-0.6 0-1.15 0.23-0.55 0.23-0.97 0.65-0.42 0.42-0.65 0.97-0.23 0.55-0.23 1.15 0-0.6-0.23-1.15-0.23-0.55-0.65-0.97-0.42-0.42-0.97-0.65-0.55-0.23-1.15-0.23z"/>
+	</g>
+</svg>
