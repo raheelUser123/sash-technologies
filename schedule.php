@@ -19,7 +19,7 @@ include 'includes/header.php';
       <input type="hidden" name="form_type" value="strategy_call">
       <div class="hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="urd_company_fax" value="" tabindex="-1" autocomplete="new-password"></label></div>
       <aside class="booking-sidebar">
-        <div class="booking-brand"><img src="<?= $base_path ?>assets/images/urdigilogo.png" alt="Sash Technologies logo" class="brand-logo"></div>
+        <div class="booking-brand"><img src="<?= $base_path ?>assets/images/darklogo.png" alt="Sash Technologies logo" class="brand-logo"></div>
         <div class="booking-duration">30-minute strategy call</div>
         <p>A focused conversation to understand the opportunity, recommend the right approach and define clear next steps.</p>
         <ul class="booking-benefits">

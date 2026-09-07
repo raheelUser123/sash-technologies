@@ -136,7 +136,7 @@ function email_layout(
      * Replace this placeholder image whenever your final email logo is ready.
      * Recommended size: around 320x80 pixels with transparent background.
      */
-    $logoUrl = $siteUrl . '/assets/images/urdigilogo.png';
+    $logoUrl = $siteUrl . '/assets/images/darklogo.png';
 
     return '<!doctype html>
 <html lang="en">

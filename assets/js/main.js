@@ -1,6 +1,6 @@
 (()=>{
   const body=document.body,theme=document.getElementById('theme-toggle'),saved=localStorage.getItem('urd-theme');
-  const updateLogos=()=>{document.querySelectorAll('.brand-logo').forEach(img=>{if(!img.src||img.src.includes('darklogo.png')){const base=document.querySelector('base')?.getAttribute('href')||'';img.src=base+'assets/images/urdigilogo.png'}})};
+  const updateLogos=()=>{const isLight=body.classList.contains('light');const base=document.querySelector('base')?.getAttribute('href')||'';const logoFile=isLight?'assets/images/lightlogo.png':'assets/images/darklogo.png';document.querySelectorAll('.brand-logo').forEach(img=>{img.src=base+logoFile})};
   if(saved!=='dark')body.classList.add('light'); // light is default when no preference saved
   updateLogos();
   theme?.addEventListener('click',()=>{body.classList.toggle('light');localStorage.setItem('urd-theme',body.classList.contains('light')?'light':'dark');updateLogos()});
