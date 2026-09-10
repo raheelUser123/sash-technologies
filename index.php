@@ -147,7 +147,7 @@
             <span class="review-avatar"><?= htmlspecialchars($initials) ?></span>
             <div>
               <strong><?= htmlspecialchars($r['name']) ?></strong>
-              <small><?= htmlspecialchars($r['date']) ?></small>
+              <small><?= htmlspecialchars($r['country']) ?> · <?= htmlspecialchars($r['date']) ?></small>
               <div class="review-stars">★★★★★</div>
             </div>
           </header>
