@@ -564,7 +564,7 @@ function send_lead_emails(
             . "\n\n"
             . "Sash Technologies\n"
             . "info@sashtechnologies.com\n"
-            . "(666) 399-1245";
+            . "+92 337 2435249";
 
         $customerMail->send();
 
@@ -810,7 +810,7 @@ if ($email['success']) {
  */
 respond(
     false,
-    'We could not send your request by email. Please try again, call (666) 399-1245, or email info@sashtechnologies.com.',
+    'We could not send your request by email. Please try again, call +92 337 2435249, or email info@sashtechnologies.com.',
     [
         'email_success' => false,
         'email_error' =>

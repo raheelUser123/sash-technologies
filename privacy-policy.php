@@ -60,10 +60,10 @@ include 'includes/header.php';
         <strong>Our business contact information is:</strong><br>
         Sash Technologies, LLC<br>
         d/b/a Sash Technologies<br>
-        222 PK<br>
-        COUNTRY NY<br>
+        Block L, North Nazimabad<br>
+        Karachi, Sindh, Pakistan<br>
         Email: <a href="mailto:info@sashtechnologies.com" class="text-link">info@sashtechnologies.com</a><br>
-        Phone: <a href="tel:17164000769" class="text-link">(666) 399-1245</a>
+        Phone: <a href="tel:+923372435249" class="text-link">+92 337 2435249</a>
       </div>
 
       <p>By using our website or providing information to us, you acknowledge the practices described in this Privacy Policy.</p>
@@ -725,10 +725,10 @@ include 'includes/header.php';
       <div class="legal-contact-box">
         <strong>Sash Technologies, LLC</strong><br>
         d/b/a Sash Technologies<br>
-        222 PK<br>
-        COUNTRY NY<br>
+        Block L, North Nazimabad<br>
+        Karachi, Sindh, Pakistan<br>
         Email: <a href="mailto:info@sashtechnologies.com" class="text-link">info@sashtechnologies.com</a><br>
-        Phone: <a href="tel:17164000769" class="text-link">(666) 399-1245</a>
+        Phone: <a href="tel:+923372435249" class="text-link">+92 337 2435249</a>
       </div>
       <p><strong>Effective Date:</strong> January 1, 2026<br>
       <strong>Last Updated:</strong> August 10, 2026</p>

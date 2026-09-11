@@ -17,7 +17,7 @@
   });
   document.querySelectorAll('form#lead-form').forEach(form=>form.addEventListener('submit',async e=>{
     e.preventDefault();const btn=form.querySelector('[type="submit"]'),status=form.querySelector('#form-status');const original=btn?.textContent||'Submit';if(btn){btn.disabled=true;btn.textContent='Sending...'}
-    try{const response=await fetch(form.getAttribute('action')||'/contact-handler.php',{method:'POST',body:new FormData(form)});const data=await response.json();if(data.success){location.href='/thank-you.php';return}throw new Error(data.message||'Please try again.')}catch(error){if(status)status.innerHTML=`<div class="form-alert">${error.message||'Could not send. Please call (666) 399-1245.'}</div>`;if(btn){btn.disabled=false;btn.textContent=original}}
+    try{const response=await fetch(form.getAttribute('action')||'/contact-handler.php',{method:'POST',body:new FormData(form)});const data=await response.json();if(data.success){location.href='/thank-you.php';return}throw new Error(data.message||'Please try again.')}catch(error){if(status)status.innerHTML=`<div class="form-alert">${error.message||'Could not send. Please call +92 337 2435249.'}</div>`;if(btn){btn.disabled=false;btn.textContent=original}}
   }));
 })();
 

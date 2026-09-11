@@ -320,9 +320,9 @@ function email_layout(
                                     info@sashtechnologies.com
                                 </a>
                                 &nbsp;•&nbsp;
-                                <a href="tel:+002424276921"
+                                <a href="tel:+923372435249"
                                    style="color:#315fcf;text-decoration:none;">
-                                    (666) 399-1245
+                                    +92 337 2435249
                                 </a>
                             </p>
 

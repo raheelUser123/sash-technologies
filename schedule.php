@@ -25,7 +25,7 @@ include 'includes/header.php';
         <ul class="booking-benefits">
           <li>Discuss goals and challenges</li><li>Review the best service fit</li><li>Clarify scope and timeline</li><li>No pressure or obligation</li>
         </ul>
-        <div class="booking-contact"><small>Need help booking?</small><a href="tel:17164000769">(666) 399-1245</a><a href="mailto:info@sashtechnologies.com">info@sashtechnologies.com</a></div>
+        <div class="booking-contact"><small>Need help booking?</small><a href="tel:+923372435249">+92 337 2435249</a><a href="mailto:info@sashtechnologies.com">info@sashtechnologies.com</a></div>
       </aside>
       <div class="booking-main">
         <div class="form-progress"><span class="active">1</span><span>2</span><span>3</span><span>4</span></div>

@@ -64,9 +64,9 @@
         console.error('Form submission failed:', error);
 
         if (status) {
-          status.innerHTML = `<div class="form-alert" role="alert">${escapeFormMessage(error.message || 'Could not send. Please call (666) 399-1245.')}</div>`;
+          status.innerHTML = `<div class="form-alert" role="alert">${escapeFormMessage(error.message || 'Could not send. Please call +92 337 2435249.')}</div>`;
         } else {
-          alert(error.message || 'Could not send. Please call (666) 399-1245.');
+          alert(error.message || 'Could not send. Please call +92 337 2435249.');
         }
       } finally {
         form.dataset.submitting = '0';
